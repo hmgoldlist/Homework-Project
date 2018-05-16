@@ -1,0 +1,116 @@
+body {
+  background-color: #ffffff;
+  background-image: url("background.jpg");
+  font-family: 'PT Sans', Helvetica, sans-serif;
+  color: #808080;
+}
+#wrapper {
+  width: 80%;
+  min-width: 960px;
+  margin: auto;
+  box-shadow: 10px 10px 5px grey;
+  background-color: skyblue;
+}
+
+h1 {
+  background-color: #000033;
+  color: white;
+  background-image: url("sunset.jpg");
+  background-position: right; 
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+h2 {
+  color: #3399CC;
+  text-shadow: 2px 2px 1px gray;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h1, h2 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+h3{
+  color: #000033;
+  font-family: Georgia, Times New Roman, serif;
+  margin: 0;
+}
+
+#nav {
+  float: left;
+  background-color: skyblue;
+  font-style: bold;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+#nav ul {
+  padding: 0;
+}
+#nav li {
+  list-style-type: none;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+}
+a:link {
+  color: #000033;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #344873;
+}
+a:hover {
+  color: white;
+}
+
+.resort {
+  color: #000033;
+  font-weight: bold; 
+}
+.blue-bold-title {
+  color: #000033;
+  font-weight: bold;
+}
+#content {
+  background-color: skyblue;
+  margin-left: 140px;
+}
+#contact {
+  font-size: 90%;
+  clear: both;
+}
+#footer {
+  font-size: 75%;
+  font-style: italic;
+  font-family: Georgia, Times New Roman, Times, serif;
+  padding-bottom: 10px;
+  clear: both;
+}
+img {
+  float: left;
+  margin: 0 10px 15px 0;
+  width: 250px;
+  height: 200px;
+  padding-right: 15px;
+}
+#bird{
+    background-image: url('little-bird.gif');
+     width: 68px;
+     height: 61px;
+     position: relative;
+     animation-name: bird;
+     animation-duration: 3s;
+     animation-iteration-count: 1;
+     animation-timing-function: ease-in-out;
+     animation-fill-mode: forwards;
+}
+ @keyframes bird {
+     from {
+         left: 0px;
+    }
+     to {
+         left: 90%;
+    }
+}
